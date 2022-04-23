@@ -1,0 +1,31 @@
+@media (max-width:1200px) {
+    .container
+    {
+        min-width: 960px;
+        max-width: 330px;
+    }
+}
+@media (max-width:1000px) {
+    .container
+    {
+        min-width: 760px;
+    }
+}
+@media (max-width:800px) {
+    .container
+    {
+        min-width: 560px;
+    }
+}
+@media (max-width:600px) {
+    .container
+    {
+        min-width: 420px;
+    }
+}
+@media (max-width:440px) {
+    .container
+    {
+        min-width: 330px;
+    }
+}

@@ -1,0 +1,64 @@
+@media(max-width:1200px)
+{
+    .prewiew__info__cryptos
+    {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .cryptos
+    {
+        margin:5px;
+    }
+}
+@media(max-width:1000px)
+{
+    .prewiew
+    {
+        flex-direction: column;
+    }
+    .prewiew__info__discription , .prewiew__info__cryptos
+    {
+        margin-top:25px;
+    }
+    .prewiew__info , .prewiew__login
+    {
+        width: 100%;
+    }
+    .prewiew__login
+    {
+        margin-top:50px;
+    }
+}
+@media(max-width:800px)
+{
+    .cryptos
+    {
+        margin:3px;
+    }
+}
+@media(max-width:600px)
+{
+    .prewiew__info__title
+    {
+        font-size: 42px;
+        line-height: normal;
+    }
+    .prewiew__info__discription
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .cryptos
+    {
+        margin:4px;
+        padding: 14px 50px;
+        font-size: 20px;
+    }
+}
+@media(max-width:440px)
+{
+    .prewiew
+    {
+        top:70px;
+    }
+}
